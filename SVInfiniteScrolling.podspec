@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
                   'method as well as a pullToRefreshView property.'
 
   s.frameworks   = 'QuartzCore'
-  s.source_files = 'SVPullToRefresh/*.{h,m}'
+  s.source_files = 'SVInfiniteScrolling/*.{h,m}'
   s.preserve_paths  = 'Demo'
   s.requires_arc = true
 end
